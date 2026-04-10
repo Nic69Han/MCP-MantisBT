@@ -1,0 +1,37 @@
+{
+  "name": "mantisbt-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for MantisBT — query issues, comments, projects, filters via natural language tool calls",
+  "main": "dist/index.js",
+  "bin": {
+    "mantisbt-mcp-server": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "mantisbt",
+    "model-context-protocol",
+    "bug-tracker",
+    "vscode"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.2",
+    "axios": "^1.7.9",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "mantisbt": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "mantisbt-mcp-server"],
+      "env": {
+        "MANTIS_URL": "https://your-mantis-instance.com",
+        "MANTIS_TOKEN": "your_api_token_here",
+        "MANTIS_PROJECT": "1",
+        "MANTIS_PAGE_SIZE": "25"
+      }
+    }
+  }
+}
