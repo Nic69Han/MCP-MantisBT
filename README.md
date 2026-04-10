@@ -1,8 +1,8 @@
-# mantisbt-mcp-server
+# MCP-MantisBT
 
 ## Overview
 
-`mantisbt-mcp-server` is a **Model Context Protocol (MCP)** server that bridges MCP-compatible AI clients (VS Code Copilot, Claude Code, Cursor) with a **MantisBT** bug-tracking instance.
+`MCP-MantisBT` is a **Model Context Protocol (MCP)** server that bridges MCP-compatible AI clients (VS Code Copilot, Claude Code, Cursor) with a **MantisBT** bug-tracking instance.
 
 It exposes 14 typed tools that allow any MCP client to:
 - Query, search, and list issues with rich filtering
